@@ -4,16 +4,31 @@
   margin: 0;
 }
 
+/* Header:Navbar & Title */
 .nav-bar{
   min-height: 70px;
   background-color: #F7418F;
   display: flex;
   justify-content:end;
   align-items: center;
-  color:white
 }
 
 .nav-item{
   display: inline-block;
   margin: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.title{
+  text-align: center;
+  font-size: 3rem;
+  margin: 0.5em;
 }
