@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+/* Color Template: #FFF3C7, #FEC7B4,  #FC819E, #F7418F*/
+
 /* Header:Navbar & Title */
 .nav-bar{
   min-height: 70px;
@@ -31,4 +33,15 @@ a:hover{
   text-align: center;
   font-size: 3rem;
   margin: 0.5em;
+}
+
+/* Main: Form */
+
+.form-container{
+  max-width: 700px;
+  min-height: 70vh;
+  background-color: #FFF3C7;
+  margin: 0 auto;
+  border: 0.5em solid #FC819E,;
+  border-radius: 1em;
 }
