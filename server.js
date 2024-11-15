@@ -6,7 +6,8 @@ let genreName = document.getElementById("genre")
 
 //This function will get the genre the user chose from the option
 const getGenreHandler = (e) => {
-
+  let userBookGenre = e.target.value
+  return userBookGenre
 }
 
 //This function would store all the information from the form and store it in local storage
@@ -17,6 +18,13 @@ const addBookBtnHandler = () => {
   }else{
     bookName.style.border = "0.2em solid red"
   }
+
+  if(authorName.value){
+
+  }else{
+    authorName.style.border = "0.2em solid red"
+  }
+
 }
 
 //adding event listners
