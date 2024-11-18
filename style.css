@@ -91,6 +91,12 @@ input,select{
   transform: scale(1.1);
 }
 
+/* Reading List Page */
+.readingList-title{
+  font-size: 3rem;
+  margin: 0.5em;
+}
+
 /* For Small Screen */
 @media (max-width:576px){
 
