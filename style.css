@@ -91,10 +91,19 @@ input,select{
   transform: scale(1.1);
 }
 
-/* Reading List Page */
+/* Reading List Page : Header */
 .readingList-title{
   font-size: 3rem;
   margin: 0.5em;
+}
+
+/* Reading List Page : Main Page */
+.main-lists-container{
+  width: 95%;
+  max-width: 900px;
+  min-height: 600px;
+  border: 0.2em solid black;
+  margin: 0 2em;
 }
 
 /* For Small Screen */
